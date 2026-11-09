@@ -16,6 +16,12 @@ Guidance for managing day-to-day execution and tracking progress toward project 
   - Run automated tests and linting in CI before requesting review
   - Require at least one approval before merging (or team-defined policy)
 
+### Review and merge
+1. Request a review from at least one teammate who is not the PR author; GitHub does not allow authors to approve their own pull requests.
+2. The reviewer may leave a comment, select **Approve**, and click **Submit review**. Address requested changes before proceeding.
+3. Once the required approval and checks are complete, mark the PR **Ready for review** if it is a draft, then select **Merge pull request** and confirm.
+4. Open the linked issue and verify that GitHub marked it **Closed** after the merge. If it remains open, check that the PR description contains `Closes #<issue-number>`.
+
 ## Quality & Testing
 - Unit tests for new logic
 - Integration tests where applicable
